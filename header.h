@@ -13,7 +13,6 @@ struct list
 };
 typedef struct list MARKOV;
 
-char* word_ngram(char*, int);
 void create_model(char*,int,MARKOV*);
 void insert(char*, MARKOV*);
 void display(MARKOV*);
